@@ -60,14 +60,14 @@
 	<body>
 		<div class="container">
 			<div class="row">
-				<div class="timerblock col col-lg-5 col-sm-12">
+				<div class="timerblock col col-lg-5 col-md-12 col-sm-12">
 					<div class="alert alert-primary" role="alert">
 						<h3>Apal</h3>
 						<h4>3<sup>rd</sup> February 2019</h4>
 					</div>
 					<h2><div align="center" class="j-timer-1"></div></h2>
 				</div>		
-				<div class="timerblock col col-lg-5 col-sm-12">
+				<div class="timerblock col col-lg-5 col-md-12 col-sm-12">
 					<div class="alert alert-success" role="alert">
 						<h3>Binjai</h3>
 						<h4>5<sup>th</sup> February 2019</h4>
