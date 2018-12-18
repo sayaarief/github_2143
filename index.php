@@ -48,8 +48,8 @@
 			.timerblock {
 				border: 2px solid black;
 				border-radius: 5px;
-				padding:10px;
-				margin:5px;
+				padding:50px;
+				margin:3px;
 				font-family: 'Cinzel', serif;
 			}
 		</style>
