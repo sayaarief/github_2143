@@ -57,6 +57,10 @@
 				margin:3px;
 				font-family: 'Cinzel', serif;
 			}
+			
+			.main_display {
+				text-align:center;
+			}
 		</style>
 		<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" 
 			  integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">		
@@ -66,14 +70,14 @@
 		<div class="container">
 			<div class="row">
 				<div class="timerblock col-lg-5 col-md-12 col-sm-12">
-					<div class="alert alert-primary" role="alert">						
+					<div class="main_display alert alert-primary" role="alert">						
 						<h1>Apal</h1>						
 						<h2>3<sup>rd</sup> February 2019</h2>
 						<hr/>
 						<h2><div align="center" class="j-timer-1"></div></h2>
 					</div>
 				</div>		
-				<div class="timerblock col-lg-5 col-md-12 col-sm-12">
+				<div class="main_display timerblock col-lg-5 col-md-12 col-sm-12">
 					<div class="alert alert-success" role="alert">						
 						<h1>Binjai</h1>						
 						<h2>5<sup>th</sup> February 2019</h2>
