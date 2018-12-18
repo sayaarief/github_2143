@@ -62,15 +62,15 @@
 			<div class="row">
 				<div class="timerblock col-lg-5 col-md-12 col-sm-12">
 					<div class="alert alert-primary" role="alert">
-						<h2><b>Apal</b></h2>
-						<h3><b>3</b><sup><b>rd</b></sup><b> February 2019</b></h3>
+						<h1>Apal</h1>
+						<h2>3<sup>rd</sup> February 2019</h2>
 					</div>
 					<h2><div align="center" class="j-timer-1"></div></h2>
 				</div>		
 				<div class="timerblock col-lg-5 col-md-12 col-sm-12">
 					<div class="alert alert-success" role="alert">						
-						<h2><b>Binjai</b></h2>
-						<h3><b>5</b><sup><b>th</b></sup><b> February 2019</b></h3>
+						<h1>Binjai</h1>
+						<h2>5<sup>th</sup> February 2019</h2>
 					</div>
 					<h2><div align="center" class="j-timer-2"></div></h2>
 				</div>
