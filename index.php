@@ -33,7 +33,7 @@
 		</script>
 		<style type="text/css">
 			body {				
-				background: url("https://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-382791.jpg") no-repeat center center fixed; 
+				background: url("https://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-89002.jpg") no-repeat center center fixed; 
 				-webkit-background-size: cover;
 				-moz-background-size: cover;
 				-o-background-size: cover;
