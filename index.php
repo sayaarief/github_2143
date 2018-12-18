@@ -31,7 +31,14 @@
 				});
 			});
 		</script>
-		<style type="text/css">			
+		<style type="text/css">
+			body {				
+				background: url("https://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-382791.jpg") no-repeat center center fixed; 
+				-webkit-background-size: cover;
+				-moz-background-size: cover;
+				-o-background-size: cover;
+				background-size: cover;
+			}
 			.timer {
 			  font-size: 70px;
 			}
