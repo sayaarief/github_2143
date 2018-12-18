@@ -52,9 +52,7 @@
 			  font-size: 40px;
 			}
 			
-			.timerblock {
-				border: 2px solid black;
-				border-radius: 5px;
+			.timerblock {				
 				padding:50px;
 				margin:3px;
 				font-family: 'Cinzel', serif;
