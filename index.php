@@ -49,7 +49,7 @@
 				border: 2px solid black;
 				border-radius: 5px;
 				padding:50px;
-				margin:10px;
+				margin:5px;
 				font-family: 'Cinzel', serif;
 			}
 		</style>
