@@ -71,15 +71,17 @@
 					<div class="alert alert-primary" role="alert">
 						<h1>Apal</h1>
 						<h2>3<sup>rd</sup> February 2019</h2>
+						<hr/>
+						<h2><div align="center" class="j-timer-1"></div></h2>
 					</div>
-					<h2><div align="center" class="j-timer-1"></div></h2>
 				</div>		
 				<div class="timerblock col-lg-5 col-md-12 col-sm-12">
 					<div class="alert alert-success" role="alert">						
-						<h1>Binjai</h1>
+						<h1>Binjai</h1>						
 						<h2>5<sup>th</sup> February 2019</h2>
+						<hr/>
+						<h2><div align="center" class="j-timer-2"></div></h2>
 					</div>
-					<h2><div align="center" class="j-timer-2"></div></h2>
 				</div>
 			</div>		  
 		</div>
