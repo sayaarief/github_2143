@@ -66,6 +66,7 @@
 			  integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">		
 		<link href='https://fonts.googleapis.com/css?family=Cinzel:700' rel='stylesheet' type='text/css'>		
 		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+		<title>idayu X arief</title>
 	</head>
 	<body>
 		<div class="container">
