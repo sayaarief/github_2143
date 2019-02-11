@@ -9,18 +9,7 @@
 			$(document).ready(function()
 			{		
 				new TimezZ('.j-timer-1', {
-					date: 'February 3, 2019 00:00:00',
-					daysName: 'd',
-					hoursName: 'h',
-					minutesName: 'm',
-					secondsName: 's',
-					tagNumber: 'span',
-					tagLetter: 'i',
-					stop: false,
-				});
-				
-				new TimezZ('.j-timer-2', {
-					date: 'February 5, 2019 00:00:00',
+					date: 'February 3, 2019 11:23:00',
 					daysName: 'd',
 					hoursName: 'h',
 					minutesName: 'm',
@@ -71,22 +60,13 @@
 	<body>
 		<div class="container">
 			<div class="row">
-				<div class="timerblock col-lg-5 col-md-12 col-sm-12">
+				<div class="timerblock col-lg-12 col-md-12 col-sm-12">
 					<div class="main_display alert alert-primary" role="alert">						
-						<h1>Apal</h1>						
 						<h2>3<sup>rd</sup> February 2019</h2>
 						<hr/>
 						<h2><div align="center" class="j-timer-1"></div></h2>
 					</div>
-				</div>		
-				<div class="main_display timerblock col-lg-5 col-md-12 col-sm-12">
-					<div class="alert alert-success" role="alert">						
-						<h1>Binjai</h1>						
-						<h2>5<sup>th</sup> February 2019</h2>
-						<hr/>
-						<h2><div align="center" class="j-timer-2"></div></h2>
-					</div>
-				</div>
+				</div>				
 			</div>		  
 		</div>
 	</body>
