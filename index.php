@@ -25,15 +25,15 @@
 				 
 				 
 				var babyRiesa = moment(new Date());				
-				var b = moment([2020, 04, 03]);
+				var bR = moment([2020, 04, 03]);
 
-				var years = babyRiesa.diff(b, 'year');
-				b.add(years, 'years');
+				var years = babyRiesa.diff(bR, 'year');
+				bR.add(years, 'years');
 
-				var months = babyRiesa.diff(b, 'months');
-				b.add(months, 'months');
+				var months = babyRiesa.diff(bR, 'months');
+				bR.add(months, 'months');
 
-				var days = babyRiesa.diff(b, 'days');
+				var days = babyRiesa.diff(bR, 'days');
 
 				var tmp_result_ariesa = years + ' years ' + months + ' months ' + days + ' days';
 				 $('.ariesa').html(tmp_result_ariesa);
@@ -63,7 +63,6 @@
 		</script>
 		<style type="text/css">
 			body {				
-				background: url("https://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-137468.jpg") no-repeat center center fixed; 
 				-webkit-background-size: cover;
 				-moz-background-size: cover;
 				-o-background-size: cover;
