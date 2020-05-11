@@ -9,9 +9,9 @@
 		<script type="text/javascript">
 			$(document).ready(function()
 			{												
-				/* var akadKahwin = moment(new Date());				
-				var b = moment([2019, 02, 03]); */
-				var akadKahwin = moment("02-03-2019");
+				var akadKahwin = moment(new Date());				
+				//var b = moment([2019, 02, 03]);
+				var b = moment("02-03-2019");
 				var bR = moment("04-03-2020");
 				
 				var years = akadKahwin.diff(b, 'year');
