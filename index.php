@@ -24,8 +24,7 @@
 				 $('.j-timer-1').html(tmp_result);
 				 
 				 
-				var babyRiesa = moment(new Date());
-				console.log(babyRiesa);
+				var babyRiesa = moment(new Date());				
 				var bR = moment([2020, 04, 03]);
 				console.log(bR);
 
