@@ -10,9 +10,11 @@
 			$(document).ready(function()
 			{				
 				var startDate = moment("03/02/2019", "DD/MM/YYYY");
-				var endDate = moment().toDate();
-				var result = endDate.diff(startDate, 'years');
-				 $('.j-timer-1').html(result);				
+				var now = moment(new Date());
+				var end = moment(fd);
+				var days = end.diff(now, 'days');
+				//var result = endDate.diff(startDate, 'years');
+				 $('.j-timer-1').html(days);				
 				/* new TimezZ('.j-timer-1', {
 					date: 'February 3, 2019 11:23:00',
 					daysName: 'd',
