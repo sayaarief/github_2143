@@ -8,12 +8,7 @@
 				integrity="sha384-pjaaA8dDz/5BgdFUPX6M/9SUZv4d12SUPF0axWc+VRZkx5xU3daN+lYb49+Ax+Tl" crossorigin="anonymous"></script>
 		<script type="text/javascript">
 			$(document).ready(function()
-			{				
-				var startDate = moment("03/02/2019", "DD/MM/YYYY");
-				var now = moment(new Date());
-				var end = moment(startDate);
-				var days = end.diff(now, 'days');
-				
+			{												
 				var akadKahwin = moment(new Date());				
 				var b = moment([2019, 02, 03]);
 
@@ -27,6 +22,21 @@
 
 				var tmp_result = years + ' years ' + months + ' months ' + days + ' days';
 				 $('.j-timer-1').html(tmp_result);
+				 
+				 
+				var babyRiesa = moment(new Date());				
+				var b = moment([2020, 04, 03]);
+
+				var years = babyRiesa.diff(b, 'year');
+				b.add(years, 'years');
+
+				var months = babyRiesa.diff(b, 'months');
+				b.add(months, 'months');
+
+				var days = babyRiesa.diff(b, 'days');
+
+				var tmp_result_ariesa = years + ' years ' + months + ' months ' + days + ' days';
+				 $('.ariesa').html(tmp_result_ariesa);
 				 //$('.j-timer-1').html(days);				
 				/* new TimezZ('.j-timer-1', {
 					date: 'February 3, 2019 11:23:00',
@@ -108,9 +118,7 @@
 						<h2>Nur Ariesa Auliya</h2>
 						<h2>3<sup>rd</sup> April 2020</h2>
 						<hr/>
-						<h2><div align="center" class="ariesa_days"></div></h2>
-						<h2><div align="center" class="ariesa_month"></div></h2>
-						<h2><div align="center" class="ariesa_year"></div></h2>
+						<h2><div align="center" class="ariesa"></div></h2>						
 					</div>
 				</div>				
 			</div>		  
