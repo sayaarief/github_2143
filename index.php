@@ -19,8 +19,8 @@
 					stop: false,
 				});
 				
-				new TimezZ('.j-timer-1l', {
-					date: 'April 3, 2020 00:00:00',
+				new TimezZ('.ariesa', {
+					date: 'April 3, 2020 00:01:00',
 					daysName: 'd',
 					hoursName: 'h',
 					minutesName: 'm',
@@ -88,7 +88,7 @@
 						<h2>Nur Ariesa Auliya</h2>
 						<h2>3<sup>rd</sup> April 2020</h2>
 						<hr/>
-						<h2><div align="center" class="j-timer-ll"></div></h2>
+						<h2><div align="center" class="ariesa"></div></h2>
 					</div>
 				</div>				
 			</div>		  
