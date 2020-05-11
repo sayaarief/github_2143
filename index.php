@@ -24,8 +24,10 @@
 				 $('.j-timer-1').html(tmp_result);
 				 
 				 
-				var babyRiesa = moment(new Date());				
+				var babyRiesa = moment(new Date());
+				console.log(babyRiesa);
 				var bR = moment([2020, 04, 03]);
+				console.log(bR);
 
 				var yearsR = babyRiesa.diff(bR, 'year');
 				bR.add(yearsR, 'years');
