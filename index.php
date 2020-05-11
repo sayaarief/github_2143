@@ -11,7 +11,8 @@
 			{												
 				var akadKahwin = moment(new Date());				
 				var b = moment([2019, 02, 03]);
-
+				var bR = moment([2020, 04, 03]);
+				
 				var years = akadKahwin.diff(b, 'year');
 				b.add(years, 'years');
 
@@ -25,7 +26,6 @@
 				 
 				 
 				var babyRiesa = moment(new Date());				
-				var bR = moment([2020, 04, 03]);
 				console.log(bR);
 
 				var yearsR = babyRiesa.diff(bR, 'year');
@@ -94,7 +94,7 @@
 				<div class="timerblock col-lg-12 col-md-12 col-sm-12">
 					<div class="main_display alert alert-primary" role="alert">						
 						<h2>Nur Ariesa Auliya</h2>
-						<h2>3<sup>rd</sup> April 2020</h2>
+						<h2>3<sup>rd</sup> April 2020, 03:54:00</h2>
 						<hr/>
 						<h2><div align="center" class="ariesa"></div></h2>						
 					</div>
