@@ -12,7 +12,7 @@
 				var startDate = moment("03/02/2019", "DD/MM/YYYY");
 				var now = moment(new Date());
 				var end = moment(startDate);
-				var days = end.diff(now, 'days');
+				var days = end.diff(now, 'years');
 				//var result = endDate.diff(startDate, 'years');
 				 $('.j-timer-1').html(days);				
 				/* new TimezZ('.j-timer-1', {
