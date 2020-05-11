@@ -12,9 +12,22 @@
 				var startDate = moment("03/02/2019", "DD/MM/YYYY");
 				var now = moment(new Date());
 				var end = moment(startDate);
-				var days = end.diff(now, 'years');
-				//var result = endDate.diff(startDate, 'years');
-				 $('.j-timer-1').html(days);				
+				var days = end.diff(now, 'days');
+				
+				var akadKahwin = moment([2019, 02, 03]);
+				var b = moment(new Date());
+
+				var years = akadKahwin.diff(b, 'year');
+				b.add(years, 'years');
+
+				var months = akadKahwin.diff(b, 'months');
+				b.add(months, 'months');
+
+				var days = akadKahwin.diff(b, 'days');
+
+				var tmp_result = years + ' years ' + months + ' months ' + days + ' days';
+				 $('.j-timer-1').html(tmp_result);
+				 //$('.j-timer-1').html(days);				
 				/* new TimezZ('.j-timer-1', {
 					date: 'February 3, 2019 11:23:00',
 					daysName: 'd',
