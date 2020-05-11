@@ -8,8 +8,12 @@
 				integrity="sha384-pjaaA8dDz/5BgdFUPX6M/9SUZv4d12SUPF0axWc+VRZkx5xU3daN+lYb49+Ax+Tl" crossorigin="anonymous"></script>
 		<script type="text/javascript">
 			$(document).ready(function()
-			{		
-				new TimezZ('.j-timer-1', {
+			{				
+				var startDate = moment("03/02/2019", "DD/MM/YYYY");
+				var endDate = moment().toDate();
+				var result = endDate.diff(startDate, 'years');
+				  $('.j-timer-1').html(result);				
+				/* new TimezZ('.j-timer-1', {
 					date: 'February 3, 2019 11:23:00',
 					daysName: 'd',
 					hoursName: 'h',
@@ -29,7 +33,7 @@
 					tagNumber: 'span',
 					tagLetter: 'i',
 					stop: false,
-				});
+				}); */
 			});
 		</script>
 		<style type="text/css">
