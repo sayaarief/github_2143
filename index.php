@@ -14,8 +14,8 @@
 				var end = moment(startDate);
 				var days = end.diff(now, 'days');
 				
-				var akadKahwin = moment([2019, 02, 03]);
-				var b = moment(new Date());
+				var akadKahwin = moment(new Date());				
+				var b = moment([2019, 02, 03]);
 
 				var years = akadKahwin.diff(b, 'year');
 				b.add(years, 'years');
