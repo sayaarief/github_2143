@@ -18,6 +18,17 @@
 					tagLetter: 'i',
 					stop: false,
 				});
+				
+				new TimezZ('.j-timer-1l', {
+					date: 'April 3, 2020 00:00:00',
+					daysName: 'd',
+					hoursName: 'h',
+					minutesName: 'm',
+					secondsName: 's',
+					tagNumber: 'span',
+					tagLetter: 'i',
+					stop: false,
+				});
 			});
 		</script>
 		<style type="text/css">
@@ -65,6 +76,19 @@
 						<h2>3<sup>rd</sup> February 2019, 11:23:00</h2>
 						<hr/>
 						<h2><div align="center" class="j-timer-1"></div></h2>
+					</div>
+				</div>				
+			</div>		  
+		</div>
+		
+		<div class="container">
+			<div class="row">
+				<div class="timerblock col-lg-12 col-md-12 col-sm-12">
+					<div class="main_display alert alert-primary" role="alert">						
+						<h2>Nur Ariesa Auliya</h2>
+						<h2>3<sup>rd</sup> April 2020</h2>
+						<hr/>
+						<h2><div align="center" class="j-timer-ll"></div></h2>
 					</div>
 				</div>				
 			</div>		  
