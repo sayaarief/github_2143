@@ -27,38 +27,16 @@
 				var babyRiesa = moment(new Date());				
 				var bR = moment([2020, 04, 03]);
 
-				var years = babyRiesa.diff(bR, 'year');
-				bR.add(years, 'years');
+				var yearsR = babyRiesa.diff(bR, 'year');
+				bR.add(yearsR, 'years');
 
-				var months = babyRiesa.diff(bR, 'months');
-				bR.add(months, 'months');
+				var monthsR = babyRiesa.diff(bR, 'months');
+				bR.add(monthsR, 'months');
 
-				var days = babyRiesa.diff(bR, 'days');
+				var daysR = babyRiesa.diff(bR, 'days');
 
-				var tmp_result_ariesa = years + ' years ' + months + ' months ' + days + ' days';
-				 $('.ariesa').html(tmp_result_ariesa);
-				 //$('.j-timer-1').html(days);				
-				/* new TimezZ('.j-timer-1', {
-					date: 'February 3, 2019 11:23:00',
-					daysName: 'd',
-					hoursName: 'h',
-					minutesName: 'm',
-					secondsName: 's',
-					tagNumber: 'span',
-					tagLetter: 'i',
-					stop: false,
-				});
-				
-				new TimezZ('.ariesa_days', {
-					date: 'April 3, 2020 00:01:00',
-					daysName: 'd',
-					hoursName: 'h',
-					minutesName: 'm',
-					secondsName: 's',
-					tagNumber: 'span',
-					tagLetter: 'i',
-					stop: false,
-				}); */
+				var tmp_result_ariesa = yearsR + ' years ' + monthsR + ' months ' + daysR + ' days';
+				 $('.ariesa').html(tmp_result_ariesa);				
 			});
 		</script>
 		<style type="text/css">
